@@ -1,0 +1,192 @@
+* {
+  box-sizing: border-box;
+  margin: auto;
+}
+body {
+  color: rgb(36, 36, 36);
+  margin-top:70px;
+  font-size:16px;
+}
+
+
+
+
+img{
+  width: 100%;
+  height: 100%;
+}
+.flags{
+  width:60px;
+  height: 60px;
+}
+
+#amountConversion,
+#whereAreYouTraveling,
+#amountDiv {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+}
+legend {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 30px;
+  letter-spacing: -2px;
+  font-weight: 100;
+  padding: 20px;
+
+}
+
+label, option{
+  padding: 10px;
+}
+
+input{
+  text-align: center;
+}
+
+
+#nextToConvertedAmount,
+#nextToAmountConversion {
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  
+}
+
+#amountDiv button {
+  color: rgb(54, 54, 54);
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#convertYour,
+#amountConversion,
+#whereAreYouTraveling,
+#amountDiv {
+  display: none;
+}
+
+#convertedAmount{
+  font-size: 40px;
+  padding: 40px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: rgb(99, 99, 99);
+}
+/* --------- media change 700px------------*/
+@media only screen and (max-width: 700px) {
+  .tickers {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    height: 140px;
+    padding: 10px;
+    text-align: center;
+  }
+  .tickers p {
+    font-size: 14px;
+  }
+  footer{
+   display: none;
+  }
+}
+
+
+#showcase{
+  padding: 40px;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 40px;
+  background-color: white;
+}
+
+
+.grid-item {
+  padding: 20px;
+  font-size: 12px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 400;;
+  color: rgb(95, 95, 95);
+  letter-spacing: -1px;
+}
+
+.quote{
+  height: 300px;
+  background-image: linear-gradient(to bottom right, rgb(0, 165, 194), rgb(0, 107, 247));
+  color: white;
+  text-align: center;
+  padding: 10px;
+  
+}
+
+.quote h2{
+padding: 20px;
+letter-spacing: -1px;
+}
+
+.quote p{
+  font-weight: 300;
+  }
+
+.countries{
+  background-color: white;
+  padding: 10px;
+  height: 100px;
+  padding: 10px;
+  text-align: center;
+
+}
+.btn{
+  background-image: linear-gradient(to bottom right, rgb(0, 165, 194), rgb(0, 107, 247));
+}
+
+.countries h2{
+  font-weight: 800;
+  color: rgb(95, 95, 95);
+  font-family: sans-serif;
+  letter-spacing: 2px;
+
+}
+
+
+#info2{
+  margin:20px 0 60px 0;
+  padding: 10px;
+}
+
+#showcase h1{
+  font-size:50px;
+  margin-bottom:20px;
+}
+
+form{
+  background: rgb(247, 247, 247);
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+footer{
+  background-image: linear-gradient(to bottom right, rgb(0, 165, 194), rgb(0, 107, 247));
+  height: 100px;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+
+
+/* --------- media change 700px------------*/
+@media only screen and (max-height: 600px) {
+
+}
