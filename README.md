@@ -13,6 +13,7 @@ MoneyXchange is an app designed for users to calculate their currency and foreig
   
 </ul>
 
+Demo: https://jayrap24.github.io/moneyxchange/
 
 <img width="1014" alt="screen shot 2018-12-22 at 11 10 07 am" src="https://user-images.githubusercontent.com/28994368/50377872-5941ba80-05da-11e9-9362-f55cbf66203e.png">
 <img width="1015" alt="screen shot 2018-12-22 at 11 10 19 am" src="https://user-images.githubusercontent.com/28994368/50377873-5941ba80-05da-11e9-978f-a613e8bbd899.png">
